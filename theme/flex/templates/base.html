@@ -1,0 +1,9 @@
+{% extends "!simple/base.html" %}
+
+{% block head %}
+{{ super() }}
+{% assets filters="pyscss", output = "css/style.css" %}
+<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}" />
+{% endassets %}
+
+{% endblock %}
