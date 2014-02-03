@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Reality Improvement</title><link href="http://realityimprovement.com/" rel="alternate"></link><link href="http://realityimprovement.com/feeds/blog/website-happenings.atom.xml" rel="self"></link><id>http://realityimprovement.com/</id><updated>2014-02-03T13:00:00+00:00</updated><entry><title>Site Relaunch</title><link href="http://realityimprovement.com/2014/February/site-relaunch/" rel="alternate"></link><updated>2014-02-03T13:00:00+00:00</updated><author><name>Alistair</name></author><id>tag:realityimprovement.com,2014-02-03:2014/February/site-relaunch/</id><summary type="html">&lt;p&gt;It's been quite a while since an update. I had just left Charlotte bound for
+the West Coast. I ultimately didn't make it to San Fransisco. I will make a blog
+post soon about all that happend for the rest of the trip. &lt;/p&gt;
+&lt;p&gt;But for now I've finished up my adventures in America. I've been in the UK for
+two months. There were no blog posts for a few reasons.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;It turned out to be very difficult to update while driving alone cross-country.
+At the end of each day, I was very tired. Also I spent quite a few nights driving
+till late and then I would park in a rest stop for the night. No chance to get
+the laptop out on those days.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My wordpress install broke. An autoupdate broke the plugin and
+theme I was using to power the comic part of this website.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Number 2 could have been a rather quick fix, but I'd already been getting a bit
+fed up with wordpress anyway. So I started looking at alternatives. I'm 
+familiar with the python programming language so I was looking for python alternatives.&lt;/p&gt;
+&lt;p&gt;I started with Django and looking at the various cms' built on that. Mezzanine
+seemed large and bloated but the best choice, especially as it had the best
+Python 3 support. But before I'd gotten very far into that, I chanced across
+a new movement that is sweeping the blogs of technically minded bloggers. Static
+site generators. &lt;/p&gt;
+&lt;p&gt;Static site generators take your content, articles, pages etc. and convert it
+straight into html. No php, no database to worry about, 
+nothing dynamic that is generated server side. 
+This leads to fast, secure websites that can be hosted almost anywhere. 
+I've even moved this website to github, which allows hosting of static websites. 
+This is free and faster than my old hosting.&lt;/p&gt;
+&lt;p&gt;There are many static site generators out there, written in almost any language
+you can think of. Github even has one built in written in ruby. But as I'm 
+familiar with python I looked into python versions. Settling on pelican, as it
+has the largest community behind it. &lt;/p&gt;
+&lt;p&gt;It's been a great, if slow learning experience. Through porting my website over
+I've been relearning how to code, something I haven't done in a while. I'm now
+officially an open source contributor, having coded up three plugins and altering
+a fourth to get all the functionality I had with wordpress.&lt;/p&gt;
+&lt;p&gt;So the website is back. Expect more travel posts. But more importantly, expect
+more comics as well. The site will still be going through some cosmetic changes
+over the next few weeks. I've been brushing up on my css skills and learning all
+the new html5 stuff. This may lead to a junior web design job, or some freelance
+work. Something I can do on the road if I need to so I can start travelling again.
+It would be great to land some acting work but if I don't this would be something
+versatile and creative, and let me live a digital nomad lifestyle.&lt;/p&gt;</summary><category term="Wordpress"></category><category term="Pelican"></category><category term="Python"></category><category term="Travel"></category><category term="USA"></category><category term="UK"></category><category term="London"></category></entry><entry><title>Hey, look at that</title><link href="http://realityimprovement.com/2012/May/hey-look-at-that/" rel="alternate"></link><updated>2012-05-23T01:54:00+01:00</updated><author><name>Alistair</name></author><id>tag:realityimprovement.com,2012-05-23:2012/May/hey-look-at-that/</id><summary type="html">&lt;p&gt;that there, in the url bar/tab. A new favicon. That's what I did to the
+website today.&lt;/p&gt;
+&lt;p&gt;Also the Jetpack plugin is bad, and blocks things. Any problems you have
+with the media pages should be gone now.&lt;/p&gt;
+&lt;p&gt;Speaking of the media page; I somehow performed the popcorn song at an
+open mic night tonight. That was a little odd. Was much better received
+than it had any right to be.&lt;/p&gt;</summary><category term="Music"></category><category term="Wordpress"></category></entry><entry><title>Media Page</title><link href="http://realityimprovement.com/2011/December/media-page/" rel="alternate"></link><updated>2011-12-09T12:45:00+00:00</updated><author><name>Alistair</name></author><id>tag:realityimprovement.com,2011-12-09:2011/December/media-page/</id><summary type="html">&lt;p&gt;Check out the &lt;a href="media"&gt;media link&lt;/a&gt; in the side bar. I've uploaded a video
+and a song so far, hopefully with more to come.&lt;/p&gt;</summary><category term="Wordpress"></category></entry><entry><title>Now it's a website</title><link href="http://realityimprovement.com/2011/September/now-its-a-website/" rel="alternate"></link><updated>2011-09-27T00:15:00+01:00</updated><author><name>Alistair</name></author><id>tag:realityimprovement.com,2011-09-27:2011/September/now-its-a-website/</id><summary type="html">&lt;p&gt;So I have wasted enough time making the site presentable.&lt;/p&gt;
+&lt;p&gt;Spent the last couple of days just playing with the layout and CSS.
+There's still a few niggly things that annoy me but I've definitely
+reached the point where I can walk away from it and be happy. It's
+simple and clean and that's good enough for now.&lt;/p&gt;
+&lt;p&gt;Now; make the things happen time.&lt;/p&gt;</summary><category term="Wordpress"></category></entry><entry><title>Welcome</title><link href="http://realityimprovement.com/2011/September/ignore-this-for-now/" rel="alternate"></link><updated>2011-09-13T15:18:00+01:00</updated><author><name>Alistair</name></author><id>tag:realityimprovement.com,2011-09-13:2011/September/ignore-this-for-now/</id><summary type="html">&lt;p&gt;Hello there,&lt;/p&gt;
+&lt;p&gt;You've landed on this page which means you're probably someone I know.
+Hey you, sorry we haven't talked in so long, we should definitely catch
+up soon.&lt;/p&gt;
+&lt;p&gt;Anyway, enjoy the ride, ridicule me harshly. Updates will be sporadic
+but I'll try to keep them semi-frequent. But hopefully by me putting
+this up and welcoming you all it becomes something I do, rather than
+something I don't.&lt;/p&gt;
+&lt;p&gt;Alistair&lt;/p&gt;</summary><category term="Wordpress"></category></entry></feed>
