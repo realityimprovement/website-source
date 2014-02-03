@@ -1,83 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Reality Improvement</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
-        <link href="/" type="application/atom+xml" rel="alternate" title="Reality Improvement ATOM Feed" />
-
-
-        <!--[if IE]>
-                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="/css/ie.css"/>
-                <script src="/js/IE8.js" type="text/javascript"></script><![endif]-->
-
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="/css/ie6.css"/><![endif]-->
-
+        <title>Reality Improvement</title>
+        <link rel="stylesheet" href="http://realityimprovement.com/theme/css/main.css"> 
+        <link href="http://realityimprovement.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Reality Improvement Atom Feed" />
+        <!--[if lt IE 9]>
+            <script src="dist/html5shiv.js"></script>
+        <![endif]-->
 </head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/index.html">Reality Improvement </a></h1>
-                <nav><ul>
-                    <li ><a href="/pages/about.html">About</a></li>
-                <li><a href="/">Archives</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
+<body>
+    <header class="banner">
+        <a href="http://realityimprovement.com/"><h1>Reality Improvement </h1>
+ <h2>A Blog and some Comics</h2></a>
+    </header>
+        <nav class="menu"><ul class="menu-list">
+            <li><a href="">Home</a></li>
+                <li><a href="http://realityimprovement.com/about/">About</a></li>
+                <li><a href="http://realityimprovement.com/blog/">Blog</a></li>
+                <li><a href="http://realityimprovement.com/comic/">Comic</a></li>
+        </ul></nav>
+    <main>
 <ul>
-    <li>Creative</li>
-    <li>One Shot Comics</li>
-    <li>Personal</li>
-    <li>Random</li>
-    <li>Travel</li>
-    <li>Website Happenings</li>
-    <li>Youtube</li>
+    <li><a href="http://realityimprovement.com/blog/">Blog</a></li>
+    <li><a href="http://realityimprovement.com/comic/">Comic</a></li>
 </ul>
+    </main>
+    <aside class="extra-content">
+        <section class="blogroll">
+            <h2>Blogroll</h2>
+            <h3>Just a small selection of stuff I look at and listen to</h3>
+            <ul>
+                <li><a href="http://dresdencodak.com/">Dresden Codak</a></li>
+                <li><a href="http://xkcd.com">XKCD</a></li>
+                <li><a href="http://www.qwantz.com/">Dinosaur Comics</a></li>
+                <li><a href="http://questionablecontent.net">Questionable Content</a></li>
+                <li><a href="http://www.smbc-comics.com/">Saturday Morning Breakfast Cereal</a></li>
+                <li><a href="http://somethingpositive.net/">Something Positive</a></li>
+                <li><a href="http://www.exocomics.com/">Extra Ordinary</a></li>
+                <li><a href="http://www.giantitp.com/Comics.html">Order of the Stick</a></li>
+                <li><a href="http://hyperboleandahalf.blogspot.com/">Hyperbole and a half</a></li>
+                <li><a href="http://www.shamasyoung.com/twentysidedtale">Twenty Sided</a></li>
+                <li><a href="http://wearecitizenradio.com">Citizen Radio</a></li>
+                <li><a href="http://www.nerdist.com/podcast/nerdist">Nerdist</a></li>
+                <li><a href="http://www.nerdist.com/podcast/the-todd-glass-show/">The Tod Glass Show</a></li>
+            </ul>
+        </section><!-- /.blogroll -->
+            <section class="social">
+                <h2>Social</h2>
+                <ul>
+                    <li><a href="http://realityimprovement.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
-        <aside id="sidebar">
-                <div class="widget">
-                        <h2>Categories</h2>
-                        <ul>
-                           <li ><a href="/category/creative.html">Creative</a></li>
-                           <li ><a href="/category/one-shot-comics.html">One Shot Comics</a></li>
-                           <li ><a href="/category/personal.html">Personal</a></li>
-                           <li ><a href="/category/random.html">Random</a></li>
-                           <li ><a href="/category/travel.html">Travel</a></li>
-                           <li ><a href="/category/website-happenings.html">Website Happenings</a></li>
-                           <li ><a href="/category/youtube.html">Youtube</a></li>
-                        </ul>
-                </div>
-                <div class="widget blogroll">
-                        <h2>Blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="widget social">
-                        <h2>Social</h2>
-                        <ul>
-                            <li><a href="/" rel="alternate">atom feed</a></li>
+                <li><a href="twitter.com/alistairmagee">My Twitter</a></li>
+                <li><a href="www.flikr.com/photos/alistairmagee">More photos on my Flikr</a></li>
+                </ul>
+            </section><!-- /.social -->
+    </aside><!-- /#sidebar -->
+    <footer class="site-footer">
+        <address class="about">
+Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+        </address><!-- /#about -->
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </aside><!-- /#sidebar -->
+<p>This is a custom theme by me,<a href="http://www.alistairmagee.com">Alistair Magee</a></p>
 
-        <footer id="footer" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is «notmyidea-cms», a modified version of «notmyidea», the default theme.</p>
-        </footer><!-- /#footer -->
+<p>The content on this website is copyright, some rights reserved. You may share or remix this work using the 
+<a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-Non-commercial License.</a>
+If you would like to use this work for a commercial purpose, please <a href="mailto:alistair.magee@gmail.com">contact me.</a>
+</footer><!-- /#contentinfo -->
 
 </body>
 </html>
