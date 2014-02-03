@@ -1,0 +1,44 @@
+{% extends "article.html" %}
+{% block article %}
+<section class = comic_image>
+    <a
+    {% if article.next_article_in_subcategory1 %}
+     href="{{ SITEURL }}/{{ article.next_article_in_subcategory1.url }}"
+    {% else %}
+    href="{{ SITEURL }}/{{ article.subcategories[0].url }}" 
+    {% endif %}
+    >
+    <img src="{{ SITEURL }}/{{ article.image }}" alt="Comic image"
+    {% if article.caption %} 
+            title="{{ article.caption }}" 
+    {% endif %}
+    />
+    </a>
+    <nav class="comic-nav">
+        <ul class="comic-nav-list">        
+        <li>
+        <a
+        {% if article.prev_article_in_subcategory1 %}
+            href="{{ SITEURL }}/{{ article.prev_article_in_subcategory1.url }}"
+        {% else %}
+            href="{{ SITEURL }}/{{ article.subcategories[0].url }}"
+        {% endif %}
+        >Prev</a>
+        </li>
+        <li>
+        <a href="{{ SITEURL }}/{{ article.subcategories[0].url }}">
+        Archive
+        </a>
+        </li>
+        <li>
+        <a
+        {% if article.next_article_in_subcategory1 %}
+            href="{{ SITEURL }}/{{ article.next_article_in_subcategory1.url }}"
+        {% else %}
+            href="{{ SITEURL }}/{{ article.subcategories[0].url }}"
+        {% endif %}
+        >Next</a>
+        </li>
+</section>
+{{ super() }}
+{% endblock %}

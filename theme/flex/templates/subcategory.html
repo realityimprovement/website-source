@@ -1,0 +1,6 @@
+{% extends "index.html" %}
+{% block title %}{{ SITENAME }} - {{ subcategory.shortname }}{% endblock %}
+{% block content %}
+<header><h1>{{ subcategory.name.replace("/", " - ") }}</h1></header>
+{{ super() }}
+{% endblock %}

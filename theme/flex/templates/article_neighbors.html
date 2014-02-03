@@ -1,0 +1,21 @@
+<section class="article-neighbors"> 
+<h1>Keep Reading</h1>
+<ul>
+{% if article.prev_article %}
+    <li>
+    Older: 
+    <a href="{{ SITEURL }}/{{ article.prev_article.url}}">
+    {{ article.prev_article.title }}
+    </a>
+    </li>
+{% endif %}
+{% if article.next_article %}
+    <li>
+    Newer:
+    <a href="{{ SITEURL }}/{{ article.next_article.url}}">
+    {{ article.next_article.title }}
+    </a>
+    </li>
+{% endif %}
+</ul>
+</section>

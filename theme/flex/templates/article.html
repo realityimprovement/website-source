@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title|striptags }}{% endblock %}
+{% block content %}
+<article class='article'>
+    {% block article %}
+    {% include "article_full.html" %}
+    {% include "article_neighbors.html" %}
+    {% include "comments.html" %}
+    {% endblock %}
+</article>
+{% endblock %}
