@@ -20,7 +20,7 @@ CATEGORY_FEED_ATOM = None
 SUBCATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-MENUITEMS = [('Home', SITEURL)]
+MENUITEMS = [('Home', 'http://www.realityimprovement.com')]
 
 # Blogroll
 LINKS = (
