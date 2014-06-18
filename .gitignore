@@ -1,5 +1,7 @@
 output/
 developserver.sh
 Makefile
-fabfile.py
+fabfile.py*
+github_output/
 __pycache__/
+cache/
