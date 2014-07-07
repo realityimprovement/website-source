@@ -10,6 +10,8 @@ SITEURL = ''
 
 PATH = 'content'
 
+CACHE_CONTENT = False
+
 TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
@@ -48,7 +50,7 @@ DEFAULT_PAGINATION = 10
 THEME = 'theme/flex'
 
 
-PLUGIN_PATH = '/home/alistair/development/waterbird/pelican-plugins'
+PLUGIN_PATH = ['/home/alistair/development/waterbird/pelican-plugins',]
 PLUGINS = ['summary', 'subcategory', 'custom_article_urls', 'clean_summary', 'neighbors']
 
 #PLUGIN SETTINGS
@@ -87,3 +89,5 @@ USE_FOLDER_AS_CATEGORY = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+MD_EXTENSIONS = ['extra',]
