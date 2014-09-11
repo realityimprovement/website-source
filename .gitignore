@@ -2,6 +2,5 @@ output/
 developserver.sh
 Makefile
 fabfile.py*
-github_output/
 __pycache__/
 cache/

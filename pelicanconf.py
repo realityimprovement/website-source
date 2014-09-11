@@ -24,6 +24,9 @@ TRANSLATION_FEED_ATOM = None
 
 MENUITEMS = [('Home', 'http://www.realityimprovement.com')]
 
+#We don't want to delete these so we can update our git at publish time
+OUTPUT_RETENTION = ('.git', 'CNAME')
+
 # Blogroll
 LINKS = (
          ('Dresden Codak', 'http://dresdencodak.com/'),
@@ -50,8 +53,8 @@ DEFAULT_PAGINATION = 10
 THEME = 'theme/flex'
 
 
-PLUGIN_PATH = ['/home/alistair/development/waterbird/pelican-plugins',]
-PLUGINS = ['summary', 'subcategory', 'custom_article_urls', 'clean_summary', 'neighbors']
+PLUGIN_PATHS = ['/home/alistair/development/waterbird/pelican-plugins',]
+PLUGINS = ['subcategory', 'clean_summary', 'neighbors', 'custom_article_urls']
 
 #PLUGIN SETTINGS
 
